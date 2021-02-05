@@ -1,6 +1,6 @@
 {
   "name": "React_Template",
-  "homepage": "https://KirillLutsenko.github.io/React_Template",
+   "homepage": "https://myusername.github.io/my-app",
   "version": "0.1.0",
   "keywords": [],
   "author": "KirillLucenko",
@@ -22,8 +22,6 @@
     "stylelint": "^13.0.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,6 +29,8 @@
     "lint-js": "eslint --ext .jsx,.js ./src/ --fix",
     "lint-css": "stylelint src/**/*.css src/**/*.scss --fix",
     "lint": "npm run lint-js && npm run lint-css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
